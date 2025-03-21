@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "order_date": "2025-11-03",
+    "status": "Processing",
+    "total_amount": 1936.07,
+    "shipping_address": {
+      "street": "Test.",
+      "city": "Seek.",
+      "zipcode": "Stay much.",
+      "country": "Away answer gun at."
+    },
+    "user_id": 8,
+    "product_ids": [
+      5,
+      4,
+      8,
+      7,
+      10
+    ]
+  },
+  {
+    "id": 2,
+    "order_date": "2025-09-12",
+    "status": "Pending",
+    "total_amount": 602.63,
+    "shipping_address": {
+      "street": "Person along.",
+      "city": "Sing concern.",
+      "zipcode": "Minute.",
+      "country": "Bring capital."
+    },
+    "user_id": 3,
+    "product_ids": [
+      3,
+      9,
+      7,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "order_date": "2026-01-22",
+    "status": "Delivered",
+    "total_amount": 4005.0,
+    "shipping_address": {
+      "street": "True.",
+      "city": "Girl American.",
+      "zipcode": "Soldier.",
+      "country": "Also."
+    },
+    "user_id": 8,
+    "product_ids": [
+      9,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "order_date": "2024-08-06",
+    "status": "Shipped",
+    "total_amount": 326.56,
+    "shipping_address": {
+      "street": "Describe.",
+      "city": "Walk.",
+      "zipcode": "Cost.",
+      "country": "My maybe company."
+    },
+    "user_id": 9,
+    "product_ids": [
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "order_date": "2025-11-09",
+    "status": "Pending",
+    "total_amount": 2319.7,
+    "shipping_address": {
+      "street": "Possible recognize.",
+      "city": "Season church.",
+      "zipcode": "Today.",
+      "country": "Never."
+    },
+    "user_id": 8,
+    "product_ids": [
+      1,
+      7,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 6,
+    "order_date": "2024-12-31",
+    "status": "Cancelled",
+    "total_amount": 1555.86,
+    "shipping_address": {
+      "street": "Section.",
+      "city": "Add.",
+      "zipcode": "Nation.",
+      "country": "During."
+    },
+    "user_id": 7,
+    "product_ids": [
+      3,
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 7,
+    "order_date": "2025-01-08",
+    "status": "Pending",
+    "total_amount": 1966.38,
+    "shipping_address": {
+      "street": "Expect.",
+      "city": "Require poor impact.",
+      "zipcode": "Present.",
+      "country": "Away current them."
+    },
+    "user_id": 2,
+    "product_ids": [
+      9
+    ]
+  },
+  {
+    "id": 8,
+    "order_date": "2024-10-12",
+    "status": "Processing",
+    "total_amount": 1220.79,
+    "shipping_address": {
+      "street": "Land.",
+      "city": "Few.",
+      "zipcode": "Cold.",
+      "country": "Daughter seven."
+    },
+    "user_id": 5,
+    "product_ids": [
+      5,
+      9,
+      6
+    ]
+  },
+  {
+    "id": 9,
+    "order_date": "2024-05-08",
+    "status": "Shipped",
+    "total_amount": 421.32,
+    "shipping_address": {
+      "street": "General poor.",
+      "city": "Wrong green law.",
+      "zipcode": "Body.",
+      "country": "Film."
+    },
+    "user_id": 9,
+    "product_ids": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": 10,
+    "order_date": "2025-03-15",
+    "status": "Cancelled",
+    "total_amount": 1535.16,
+    "shipping_address": {
+      "street": "Over.",
+      "city": "Free there.",
+      "zipcode": "Hour catch.",
+      "country": "Consider."
+    },
+    "user_id": 9,
+    "product_ids": [
+      5,
+      4
+    ]
+  }
+]

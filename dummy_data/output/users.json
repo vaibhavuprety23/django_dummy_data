@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Joseph Manning",
+    "email": "barbarajenkins@example.org",
+    "age": 56,
+    "is_active": true,
+    "joined_date": "2024-11-04",
+    "address": "7151 Wright Shoal Apt. 242\nWest Ronnie, FM 80514"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Miller",
+    "email": "rachel25@example.net",
+    "age": 74,
+    "is_active": false,
+    "joined_date": "2026-01-29",
+    "address": "385 Melendez Grove Apt. 996\nTheresabury, SD 17192"
+  },
+  {
+    "id": 3,
+    "name": "Scott Burke",
+    "email": "durhamashley@example.com",
+    "age": 70,
+    "is_active": false,
+    "joined_date": "2024-07-06",
+    "address": "379 Carol Shoals Apt. 417\nSuttonport, NY 63908"
+  },
+  {
+    "id": 4,
+    "name": "Natasha Olson",
+    "email": "jennifergonzalez@example.com",
+    "age": 19,
+    "is_active": false,
+    "joined_date": "2025-09-07",
+    "address": "136 Crystal Valley Apt. 183\nNorth Kathryn, CO 14453"
+  },
+  {
+    "id": 5,
+    "name": "Douglas Dunn",
+    "email": "tammy08@example.org",
+    "age": 40,
+    "is_active": false,
+    "joined_date": "2025-11-12",
+    "address": "910 Diane Drive Suite 837\nAmymouth, UT 93460"
+  },
+  {
+    "id": 6,
+    "name": "Gina Lawson",
+    "email": "bkennedy@example.net",
+    "age": 61,
+    "is_active": false,
+    "joined_date": "2025-06-18",
+    "address": "04345 Ashley Groves Suite 377\nEast Jessicaberg, TN 91366"
+  },
+  {
+    "id": 7,
+    "name": "Leah Bennett",
+    "email": "zmeyer@example.com",
+    "age": 69,
+    "is_active": true,
+    "joined_date": "2024-06-21",
+    "address": "922 Hardin Vista Suite 339\nBeardview, TX 95920"
+  },
+  {
+    "id": 8,
+    "name": "Samuel Hancock",
+    "email": "paynetodd@example.com",
+    "age": 42,
+    "is_active": true,
+    "joined_date": "2026-02-09",
+    "address": "749 Kathleen Harbors\nNorth Aprilmouth, NJ 14534"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Wang",
+    "email": "christinehobbs@example.org",
+    "age": 19,
+    "is_active": true,
+    "joined_date": "2026-01-02",
+    "address": "37382 Parker Station\nJonestown, IL 03880"
+  },
+  {
+    "id": 10,
+    "name": "Whitney Morris",
+    "email": "georgecastro@example.net",
+    "age": 74,
+    "is_active": true,
+    "joined_date": "2025-03-06",
+    "address": "784 Ramirez Drive Suite 561\nSouth Arthur, ND 81614"
+  }
+]

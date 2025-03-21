@@ -1,0 +1,132 @@
+{
+    "users": {
+      "name": {
+        "type": "string",
+        "options": {
+          "format": "name"
+        }
+      },
+      "email": {
+        "type": "string",
+        "options": {
+          "format": "email"
+        }
+      },
+      "age": {
+        "type": "integer",
+        "options": {
+          "minimum": 18,
+          "maximum": 80
+        }
+      },
+      "is_active": {
+        "type": "boolean"
+      },
+      "joined_date": {
+        "type": "date"
+      },
+      "address": {
+        "type": "string",
+        "options": {
+          "format": "address"
+        }
+      }
+    },
+    "products": {
+      "name": {
+        "type": "string",
+        "options": {
+          "min_length": 10,
+          "max_length": 50
+        }
+      },
+      "price": {
+        "type": "number",
+        "options": {
+          "minimum": 5.99,
+          "maximum": 999.99,
+          "precision": 2
+        }
+      },
+      "category": {
+        "type": "string",
+        "options": {
+          "enum": ["Electronics", "Clothing", "Home & Garden", "Sports", "Books", "Toys"]
+        }
+      },
+      "in_stock": {
+        "type": "boolean"
+      },
+      "created_at": {
+        "type": "datetime"
+      },
+      "tags": {
+        "type": "array",
+        "options": {
+          "items": {
+            "type": "string",
+            "options": {
+              "min_length": 3,
+              "max_length": 10
+            }
+          },
+          "min_items": 2,
+          "max_items": 5
+        }
+      }
+    },
+    "orders": {
+      "user_id": {
+        "type": "relation",
+        "options": {
+          "entity": "users",
+          "relation_type": "one_to_one"
+        }
+      },
+      "order_date": {
+        "type": "date"
+      },
+      "status": {
+        "type": "string",
+        "options": {
+          "enum": ["Pending", "Processing", "Shipped", "Delivered", "Cancelled"]
+        }
+      },
+      "total_amount": {
+        "type": "number",
+        "options": {
+          "minimum": 10,
+          "maximum": 5000,
+          "precision": 2
+        }
+      },
+      "product_ids": {
+        "type": "relation",
+        "options": {
+          "entity": "products",
+          "relation_type": "one_to_many",
+          "min_items": 1,
+          "max_items": 5
+        }
+      },
+      "shipping_address": {
+        "type": "object",
+        "options": {
+          "properties": {
+            "street": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "zipcode": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
