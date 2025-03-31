@@ -1,13 +1,41 @@
 
-
 import json
 import os
 from django.http import JsonResponse
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from .generators import DummyDataGenerator, data_store
-
+from rest_framework import viewsets
+from rest_framework.response import Response
+from faker import Faker
+from .models import User
+from .serializers import UserSerializer
 # Global variable to store generated data
+
+
+fake = Faker()
+
+class UserViewSet(viewsets.ModelViewSet):
+    def list(self, request):
+        """Fetch users from the database"""
+        users = User.objects.all()  # Fetch from PostgreSQL
+        serializer = UserSerializer(users, many=True)
+        return Response(serializer.data)
+
+    def create(self, request):
+        """Generate and store 10 dummy users in PostgreSQL"""
+        users = []
+        for _ in range(5):
+            user = User.objects.create(
+                name=fake.name(),
+                email=fake.email(),
+                address=fake.address(),
+            )
+            users.append(user)
+
+        serializer = UserSerializer(users, many=True)
+        return Response(serializer.data)
+
 data_store = {}
 
 
